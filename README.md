@@ -1,0 +1,3 @@
+This project is a music project called Music Lounge. It was created by Alan Szmyt as a final project for the Computer Graphics Project Sequence at the University of Massachusetts Lowell.
+It is a music lounge environment created with Blender and exported using the Three.js library. It provides user interaction to play music created by Alan and plays visualizers that are linked
+to the songs frequency data, therefore allowing the visualizers to match the songs' beats. 
