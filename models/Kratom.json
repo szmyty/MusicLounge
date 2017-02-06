@@ -1,0 +1,36 @@
+{
+    "vertices":[-13.6171,1.13059,-20.5844,-7.22411,1.13059,-20.5844,-7.22411,1.13059,-20.3624,-13.6171,1.13059,-20.3624,-13.6171,7.52359,-20.5844,-7.22411,7.52359,-20.5844,-7.22411,7.52359,-20.3624,-13.6171,7.52359,-20.3624],
+    "faces":[43,0,1,2,3,0,0,1,2,3,0,1,1,2,0,0,0,0,43,4,7,6,5,0,4,5,6,7,3,4,5,6,1,1,1,1,43,0,4,5,1,0,0,4,7,1,0,3,6,1,2,2,2,2,43,2,6,7,3,0,2,6,5,3,1,5,4,2,3,3,3,3,43,4,0,3,7,0,4,0,3,5,3,0,2,4,4,4,4,4],
+    "normals":[0,-0,1,0,0,-1,-0,-1,-0,-0,1,-0,-1,-9e-06,-0],
+    "metadata":{
+        "generator":"io_three",
+        "type":"Geometry",
+        "normals":5,
+        "materials":1,
+        "version":3,
+        "vertices":8,
+        "uvs":2,
+        "faces":15
+    },
+    "materials":[{
+        "blending":"NormalBlending",
+        "specularCoef":50,
+        "colorDiffuse":[0.64,0.64,0.64],
+        "DbgIndex":0,
+        "opacity":1,
+        "transparent":false,
+        "shading":"phong",
+        "colorSpecular":[0.5,0.5,0.5],
+        "visible":true,
+        "wireframe":false,
+        "DbgName":"Kratom",
+        "depthTest":true,
+        "DbgColor":15658734,
+		"mapDiffuseWrap": ["RepeatWrapping", "RepeatWrapping"],
+		"mapDiffuse": "Kratom Baked.png",
+        "colorEmissive":[0,0,0],
+        "depthWrite":true
+    }],
+    "name":"KratomGeometry.1",
+    "uvs":[[0,0,1,0,1,0,0,0,0,1,0,1,0.999999,1,1,1],[0,0,1,0,0,0,1e-06,1,0,1,0.999999,1,1,1]]
+}

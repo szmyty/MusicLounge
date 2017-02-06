@@ -1,0 +1,160 @@
+		/* Adding in Utopia (The first song to be added) */
+		
+		// instantiate a Utopia listener
+		var AudioListener = new THREE.AudioListener();
+		// add the listener to the camera
+		camera.add( AudioListener );
+		
+			// instantiate a Utopia listener
+	var UtopiaAudioListener = new THREE.AudioListener();
+	// add the listener to the camera
+	camera.add( UtopiaAudioListener );
+	// instantiate audio object
+	UtopiaSound = new THREE.Audio( UtopiaAudioListener );
+	// add the audio object to the scene
+	scene.add( UtopiaSound );
+		
+		
+		/* Adding in Kratom since the loader and audio listener are already set up */
+		var KratomSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( KratomSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+		   loader.load('audio/Kratom.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					KratomSound.setBuffer( audioBuffer );
+					// play the audio
+					//KratomSound.play();
+					});
+						
+		/* Adding in Dissonance since the loader and audio listener are already set up */
+		var DissonanceSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( DissonanceSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/Dissonance.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					DissonanceSound.setBuffer( audioBuffer );
+					// play the audio
+					//DissonanceSound.play();
+					});	
+					
+		/* Adding in Empathy since the loader and audio listener are already set up */
+		var EmpathySound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( EmpathySound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/Empathy.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					EmpathySound.setBuffer( audioBuffer );
+					// play the audio
+					//EmpathySound.play();
+					});	
+					
+		/* Adding in Layers since the loader and audio listener are already set up */
+		var LayersSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( LayersSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/Layers.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					LayersSound.setBuffer( audioBuffer );
+					// play the audio
+					//LayersSound.play();
+					});	
+					
+		/* Adding in Floating since the loader and audio listener are already set up */
+		var FloatingSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( FloatingSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/Floating.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					FloatingSound.setBuffer( audioBuffer );
+					// play the audio
+					//FloatingSound.play();
+					});	
+					
+		/* Adding in OUT THERE SOMEWHERE since the loader and audio listener are already set up */
+		var OUTTHERESOMEWHERESound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( OUTTHERESOMEWHERESound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/OUTTHERESOMEWHERE.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					OUTTHERESOMEWHERESound.setBuffer( audioBuffer );
+					// play the audio
+					//OUTTHERESOMEWHERESound.play();
+					});	
+			
+		/* Adding in In Between since the loader and audio listener are already set up */
+		var InBetweenSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( InBetweenSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/InBetween.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					InBetweenSound.setBuffer( audioBuffer );
+					// play the audio
+					//InBetweenSound.play();
+					});	
+					
+		/* Adding in I See since the loader and audio listener are already set up */
+		var ISeeSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( ISeeSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/I See.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					ISeeSound.setBuffer( audioBuffer );
+					// play the audio
+					//ISeeSound.play();
+					});			
+			
+		/* Adding in Ode to the Awakened since the loader and audio listener are already set up */
+		var OdetotheAwakenedSound = new THREE.Audio( AudioListener );
+		// add the audio object to the scene
+		scene.add( OdetotheAwakenedSound );
+		// instantiate a loader
+		var loader = new THREE.AudioLoader();
+		// load a resource
+			loader.load('audio/Ode to the Awakened.wav',
+					// Function when resource is loaded
+					function ( audioBuffer ) {
+					// set the audio object buffer to the loaded object
+					OdetotheAwakenedSound.setBuffer( audioBuffer );
+					// play the audio
+					OdetotheAwakenedSound.play();
+					});

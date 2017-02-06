@@ -1,0 +1,36 @@
+{
+    "vertices":[33.3942,-6.2287,-11.6914,33.3942,-6.2287,18.1277,33.0253,-6.2287,18.1277,33.0253,-6.2287,-11.6914,33.3942,9.83636,-11.6914,33.3942,9.83637,18.1277,33.0253,9.83637,18.1277,33.0253,9.83636,-11.6914],
+    "uvs":[[0,0,1,0,1,0,0,0,0,1,0,1,0.999999,1,1,1],[0,0,1,0,0,0,1e-06,1,0,1,0.999999,1,1,1],[0,0,1,0,0,0,1e-06,1,0,1,0.999999,1,1,1],[0,0,1,0,1,0,0,0,0,1,0,1,1,1,1,1]],
+    "name":"Aurora Borealis ArtGeometry",
+    "normals":[-0,0,1,0,-0,-1,1,0,-0,-1,-0,0,1.9e-05,-1,-0],
+    "faces":[43,0,1,2,3,0,0,1,2,3,0,1,1,2,0,1,1,2,0,1,2,3,0,0,0,0,43,4,7,6,5,0,4,5,6,7,3,4,5,6,3,4,5,6,4,5,6,7,1,1,1,1,43,0,4,5,1,0,0,4,7,1,0,3,6,1,0,3,6,1,0,4,7,1,2,2,2,2,43,2,6,7,3,0,2,6,5,3,1,5,4,2,1,5,4,2,2,6,5,3,3,3,3,3,43,4,0,3,7,0,4,0,3,5,3,0,2,4,3,0,2,4,4,0,3,5,4,4,4,4],
+    "materials":[{
+        "visible":true,
+        "depthTest":true,
+        "wireframe":false,
+        "blending":"NormalBlending",
+        "DbgIndex":0,
+        "DbgName":"Aurora Borealis Art",
+        "depthWrite":true,
+        "colorDiffuse":[0.64,0.64,0.64],
+        "colorEmissive":[0,0,0],
+        "DbgColor":15658734,
+        "specularCoef":50,
+        "opacity":1,
+        "shading":"phong",
+		"mapDiffuseWrap": ["RepeatWrapping", "RepeatWrapping"],
+		"mapDiffuse": "Aurora Borealis Baked.png",
+        "transparent":false,
+        "colorSpecular":[0.5,0.5,0.5]
+    }],
+    "metadata":{
+        "type":"Geometry",
+        "version":3,
+        "uvs":4,
+        "materials":1,
+        "generator":"io_three",
+        "vertices":8,
+        "normals":5,
+        "faces":23
+    }
+}
